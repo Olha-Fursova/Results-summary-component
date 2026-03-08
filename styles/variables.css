@@ -1,0 +1,19 @@
+:root {
+  --white: #ffffff;
+  --black: #000000;
+  --navy-950: #303b59;
+  --navy-200: #cac9ff;
+  --navy-50: #ecf2ff;
+  --blue-800: #1125d6;
+  --blue-50: #f3f4fd;
+  --red-400: #ff5555;
+  --red-50: #fff6f6;
+  --green-500: #00bb8f;
+  --green-50: #f2fcf9;
+  --yellow-400: #ffb21e;
+  --yellow-50: #fffbf4;
+
+  --gradient-purple: linear-gradient(to bottom, #4d21c9, rgba(36, 33, 201, 0));
+  --gradient-blue: linear-gradient(to bottom, #7755ff, #2f2ce9);
+  --font: "Hanken Grotesk", sans-serif;
+}

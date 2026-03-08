@@ -1,0 +1,209 @@
+/* Containers */
+
+.main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  gap: 24px;
+  background-color: var(--white);
+}
+
+.image-section {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  padding: 32px 57.5px;
+
+  background-image: var(--gradient-blue);
+  border-bottom-left-radius: 32px;
+  border-bottom-right-radius: 32px;
+}
+
+.score-box {
+  width: 140px;
+  height: 140px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: var(--gradient-purple);
+  border-radius: 50%;
+}
+
+.extras-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.info-section {
+  width: 100%;
+  padding: 30px;
+  color: var(--navy-950);
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 24px;
+}
+
+.summary-list {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.list-item {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 56px;
+  padding: 16px;
+  border-radius: 12px;
+}
+
+.left-part {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+/* Background */
+
+.red-background {
+  background-color: var(--red-50);
+}
+
+.yellow-background {
+  background-color: var(--yellow-50);
+}
+
+.green-background {
+  background-color: var(--green-50);
+}
+
+.blue-background {
+  background-color: var(--blue-50);
+}
+
+/* Text */
+
+.score-text {
+  color: var(--white);
+}
+
+.range {
+  color: var(--navy-200);
+}
+
+.result {
+  color: var(--navy-200);
+}
+
+.result-name {
+  color: var(--white);
+}
+
+.result-text {
+  color: var(--navy-200);
+  text-align: center;
+}
+
+.range-color {
+  color: var(--navy-200);
+}
+
+/* Icons */
+
+.icon {
+  width: 20px;
+  height: 20px;
+  fill: none;
+}
+
+.red {
+  color: var(--red-400);
+  stroke: var(--red-400);
+}
+
+.yellow {
+  color: var(--yellow-400);
+  stroke: var(--yellow-400);
+}
+
+.green {
+  color: var(--green-500);
+  stroke: var(--green-500);
+}
+
+.blue {
+  color: var(--blue-800);
+  stroke: var(--blue-800);
+}
+
+/* Buttons */
+
+.btn {
+  width: 100%;
+  height: 56px;
+  border-radius: 128px;
+  color: var(--white);
+  background-color: var(--navy-950);
+}
+
+/* Tablet */
+
+@media screen and (min-width: 768px) {
+  .main {
+    flex-direction: row;
+    width: 686px;
+    gap: 0;
+    border-radius: 32px;;
+  }
+
+  .image-section {
+    height: 512px;
+    width: 338px;
+    padding: 45px 69px;
+    border-radius: 32px;
+    justify-content: center;
+    gap: 32px;
+  }
+
+  .info-section {
+    width: 348px;
+    padding: 44.5px 39.64px;
+  }
+
+  .extras-box {
+    gap: 16px;
+  }
+
+  .result-text {
+    width: 100%;
+  }
+}
+
+/* Desktop */
+
+@media screen and (min-width: 1440px) {
+  .main {
+    width: 736px;
+  }
+
+  .image-section {
+    width: 368px;
+  }
+
+  .info-section {
+    width: 368px;
+  }
+}
