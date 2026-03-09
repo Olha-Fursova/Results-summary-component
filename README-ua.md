@@ -1,6 +1,6 @@
-# Recipe Page component - Frontend Mentor challenge
+# Results summary component - Frontend Mentor
 
-Вступний текст
+Компонент результатів (умовного) тесту з виведенням даних та оцінкою окремих аспектів.
 
 ## Навігація
 

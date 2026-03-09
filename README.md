@@ -1,6 +1,6 @@
-# Title
+# Results summary component - Frontend Mentor
 
-Intro text
+A component of the results of a (conditional) test with data output and evaluation of individual aspects.
 
 ## Navigation
 
