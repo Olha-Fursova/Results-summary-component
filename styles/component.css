@@ -159,6 +159,11 @@
   background-color: var(--navy-950);
 }
 
+.btn:hover,
+.btn:focus {
+  background-image: var(--gradient-blue);
+}
+
 /* Tablet */
 
 @media screen and (min-width: 768px) {
